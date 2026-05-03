@@ -1,0 +1,293 @@
+const en = {
+  browse: {
+    titlePart1: "Browse",
+    titlePart2: "skills",
+    subtitle: "{count} skills across 7 categories — pay with time, learn anything.",
+    searchPlaceholder: "Search skills, tags, tutors...",
+    filtersLabel: "Filters",
+    allLevels: "All levels",
+    allCategoryChip: "All",
+    sort: {
+      rating: "Top rated",
+      reviews: "Most reviews",
+      newest: "Newest",
+    },
+    resultCount: "{count} skills found",
+    resultCountSingular: "{count} skill found",
+    empty: {
+      title: "No skills match your filters",
+      desc: "Try clearing filters or searching for something more general.",
+      reset: "Clear filters",
+    },
+    card: {
+      view: "View",
+      book: "Book",
+    },
+  },
+  skillDetail: {
+    notFound: {
+      title: "Skill not found",
+      desc: "We couldn't find that skill. It may have been removed.",
+      back: "Back to browse",
+    },
+    backToBrowse: "Back to browse",
+    sections: {
+      about: "About this skill",
+      whatYoullLearn: "What you'll learn",
+      learningStyle: "Learning style",
+      tags: "Tags",
+      reviews: "Student reviews",
+      similar: "Similar skills",
+    },
+    bullets: {
+      master: "Master the fundamentals of {skill}",
+      handsOn: "Hands-on practice with {tag} exercises",
+      handsOnDefault: "Hands-on practice with real-world exercises",
+      confidence: "Build confidence through interactive feedback",
+      apply: "Apply {tag} techniques in real scenarios",
+    },
+    reviews: {
+      whenWeeksAgo: "{n} weeks ago",
+      templates: {
+        r1: "Absolutely loved it. Patient, clear, and genuinely fun to learn from.",
+        r2: "Best tutor I've worked with on Skill Aura. The hands-on examples really clicked.",
+        r3: "Walked in nervous, walked out confident. 10/10 recommend.",
+        r4: "Incredible energy and structure. Already booked my next session.",
+        r5: "Tons of practical tips you won't find on YouTube. Worth every credit.",
+        r6: "Adapted perfectly to my pace. Felt heard the whole way.",
+      },
+    },
+    sidebar: {
+      meetTutor: "Meet your tutor",
+      hoursTaught: "{hours}h taught",
+      viewProfile: "View profile",
+      cost: "Cost",
+      perHour: "per hour",
+      bookSession: "Book a session",
+      freeTrialLabel: "Free trial:",
+      freeTrialText: "first 30 minutes on us — no credits needed.",
+    },
+  },
+  match: {
+    hero: {
+      titlePart1: "Smart",
+      titlePart2: "Match",
+      subtitle: "Three quick questions and we'll find your perfect teacher.",
+    },
+    stepIndicator: "Step {current} of {total}",
+    step1: {
+      title: "What do you want to learn?",
+      desc: "A skill, language, tag, or topic — anything goes.",
+      placeholder: "e.g. Arabic, Figma, Python...",
+      orPickCategory: "Or pick a category",
+      anyCategory: "Any",
+    },
+    step2: {
+      title: "When are you available?",
+      desc: "Helps us find tutors in your timezone window.",
+      anyTime: "Any time",
+    },
+    step3: {
+      title: "Your learning style?",
+      desc: "Pick how you learn best — we'll match a tutor's teaching style.",
+      mixItUp: "Mix it up",
+    },
+    nav: {
+      back: "Back",
+      next: "Next",
+      findMatches: "Find matches",
+      startOver: "Start over",
+      tryAgain: "Try again",
+    },
+    results: {
+      titlePart1: "Your",
+      titlePart2: "matches",
+      foundCount: "{count} tutors found",
+      foundFor: "for",
+      foundIn: "in {category}",
+      empty: {
+        title: "No matches yet",
+        desc: "Try broadening your search or removing a filter.",
+      },
+    },
+    card: {
+      matchScore: "Match score",
+      viewDetails: "View details",
+      bookSession: "Book session",
+    },
+    reasons: {
+      matches: "Matches \"{q}\"",
+      category: "Category: {category}",
+      availability: "Available {slot}",
+      style: "{style} learning style",
+      verified: "Verified tutor",
+    },
+  },
+  sessions: {
+    title: {
+      part1: "My",
+      part2: "sessions",
+    },
+    subtitle: "Track what's coming up, what you've completed, and your group sessions.",
+    tabs: {
+      upcoming: "Upcoming",
+      past: "Past",
+      group: "Group only",
+    },
+    card: {
+      cancelled: "Cancelled",
+      learner: "Learner",
+      tutor: "Tutor",
+      hours: "{count}h",
+      morePeople: "+{count} more",
+      yourRating: "Your rating",
+      join: "Join meeting",
+      cancel: "Cancel",
+      leaveReview: "Leave review",
+    },
+    confirmCancel: "Cancel this session? This can't be undone.",
+    empty: {
+      upcoming: {
+        title: "No upcoming sessions",
+        text: "Browse skills and book your next session — your time, your terms.",
+        cta: "Browse skills",
+      },
+      past: {
+        title: "No past sessions yet",
+        text: "Once you complete a session, it'll appear here so you can review it.",
+        cta: "Find a tutor",
+      },
+      group: {
+        title: "No group sessions",
+        text: "Group sessions are a fun way to learn together and split credits.",
+        cta: "Try Smart Match",
+      },
+    },
+  },
+  premium: {
+    hero: {
+      pill: "Premium",
+      titlePart1: "Unlock Skill Aura",
+      titlePart2: "Premium",
+      subtitle:
+        "Pro tutors, certificates, priority matching, and analytics — everything you need to level up faster.",
+      ctaTrial: "Start free trial",
+      ctaBrowse: "Browse skills",
+    },
+    pricing: {
+      title: "Simple, fair pricing",
+      subtitle: "Start free. Upgrade when you're ready for more.",
+      monthly: "Monthly",
+      yearly: "Yearly",
+      save: "Save 20%",
+      perMonth: "/mo",
+      perMonthLong: "/month",
+      perYear: "/year",
+      forever: "/forever",
+      yearlyHint: "That's just $7.92/month — save $24 vs monthly.",
+    },
+    free: {
+      name: "Free",
+      tagline: "Perfect for casual learners.",
+      price: "$0",
+      currentPlan: "Current plan",
+      youreOnFree: "You're on Free",
+      downgrade: "Downgrade",
+      features: {
+        f1: "Browse all 25+ skills",
+        f2: "Time-credit exchange (1h teach = 1h learn)",
+        f3: "Basic Smart Match",
+        f4: "Peer reviews & ratings",
+        f5: "Public profile",
+      },
+    },
+    premiumPlan: {
+      name: "Premium",
+      tagline: "Everything you need to grow fast.",
+      mostPopular: "Most popular",
+      active: "Active",
+      upgrade: "Upgrade now",
+      activeBtn: "Premium active",
+      loginToUpgrade: "Log in to upgrade",
+      welcome: "Welcome to Premium! Your perks are active.",
+      features: {
+        f1: "Everything in Free",
+        f2: "Access to professional tutors",
+        f3: "Instant verifiable certificates",
+        f4: "Unlimited private sessions",
+        f5: "Priority Smart Match",
+        f6: "Ad-free experience",
+        f7: "Advanced learning analytics",
+        f8: "Premium profile badge",
+      },
+    },
+    highlights: {
+      certificates: {
+        title: "Verified certificates",
+        text: "Share your achievements anywhere.",
+      },
+      matching: {
+        title: "Priority matching",
+        text: "Be first in line with top tutors.",
+      },
+      analytics: {
+        title: "Learning analytics",
+        text: "Track progress over time.",
+      },
+    },
+    testimonials: {
+      t1: {
+        name: "Sara M.",
+        text: "Premium paid for itself in a week. Pro tutors are next level.",
+        country: "UAE",
+      },
+      t2: {
+        name: "James K.",
+        text: "The certificates helped me land my first design gig.",
+        country: "UK",
+      },
+      t3: {
+        name: "Aisha R.",
+        text: "Priority matching saved me hours of searching. So worth it.",
+        country: "Oman",
+      },
+    },
+    faq: {
+      title: "Frequently asked",
+      items: {
+        credits: {
+          q: "How do time-credits work?",
+          a: "When you teach for 1 hour, you earn 1 credit. Spend credits to learn from anyone on the platform. No money changes hands — it's a fair, balanced exchange.",
+        },
+        premium: {
+          q: "What does Premium add?",
+          a: "Premium unlocks pro tutors, certificates, priority matching, advanced analytics, and removes ads. Free users still get the full peer-to-peer time-credit experience.",
+        },
+        certificates: {
+          q: "Are certificates real?",
+          a: "Yes. Premium members get verifiable certificates after completing skill milestones. Each one has a unique URL you can share on LinkedIn or your CV.",
+        },
+        refund: {
+          q: "Can I get a refund?",
+          a: "Absolutely. We offer a 30-day money-back guarantee — no questions asked. Cancel anytime from your dashboard.",
+        },
+        cancel: {
+          q: "Can I cancel anytime?",
+          a: "Yes. You can cancel or pause your Premium subscription at any time. You'll keep Premium perks until the end of your billing period.",
+        },
+        expire: {
+          q: "Do credits expire?",
+          a: "Free credits never expire. Premium users get monthly bonus credits that roll over for up to 6 months.",
+        },
+      },
+    },
+    trust: {
+      secure: "Secure payments by",
+      stripe: "Stripe",
+      encryption: "256-bit encryption",
+      moneyBack: "30-day money-back guarantee",
+      cancelAnytime: "Cancel anytime",
+    },
+  },
+};
+export default en;

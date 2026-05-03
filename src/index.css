@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color-scheme: light dark;
+}
+
+html, body, #root { height: 100%; margin: 0; }
+body { @apply bg-slate-50 text-slate-900 antialiased; }
+.dark body { @apply bg-slate-950 text-slate-100; }
+
+html.font-arabic, html.font-arabic body {
+  font-family: "Cairo", "Tahoma", "Segoe UI", system-ui, sans-serif;
+}
+
+[dir="rtl"] .icon-flip { transform: scaleX(-1); }
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-aura-gradient bg-clip-text text-transparent;
+  }
+  .glass {
+    @apply bg-white/70 backdrop-blur-md border border-white/40;
+  }
+  .dark .glass {
+    @apply bg-slate-900/60 border-slate-800/60;
+  }
+  .scrollbar-hide::-webkit-scrollbar { display: none; }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl bg-aura-gradient px-5 py-2.5 font-medium text-white shadow-soft transition hover:shadow-glow hover:-translate-y-0.5 active:translate-y-0 disabled:opacity-50;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2 font-medium text-slate-700 hover:bg-slate-100 dark:text-slate-200 dark:hover:bg-slate-800;
+  }
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white px-5 py-2.5 font-medium text-slate-700 transition hover:border-brand-400 hover:text-brand-600 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200;
+  }
+  .card {
+    @apply rounded-2xl border border-slate-200 bg-white p-6 shadow-soft transition dark:border-slate-800 dark:bg-slate-900;
+  }
+  .input {
+    @apply w-full rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-sm outline-none transition placeholder:text-slate-400 focus:border-brand-500 focus:ring-2 focus:ring-brand-100 dark:border-slate-700 dark:bg-slate-900;
+  }
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-full bg-slate-100 px-3 py-1 text-xs font-medium text-slate-700 dark:bg-slate-800 dark:text-slate-200;
+  }
+}
