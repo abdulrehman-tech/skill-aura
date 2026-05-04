@@ -1,6 +1,6 @@
 const en = {
   brand: {
-    name: "Skill Aura",
+    name: "Skillora",
     tagline: "Trade time, learn anything",
   },
   landing: {
@@ -10,7 +10,7 @@ const en = {
       titlePart2: "not money.",
       titlePart3: "Learn anything.",
       subtitle:
-        "Skill Aura is a community where 1 hour of teaching earns 1 hour of learning. Swap languages, design, cooking, code, photography and more — with verified peers in 47 countries.",
+        "Skillora is a community where 1 hour of teaching earns 1 hour of learning. Swap languages, design, cooking, code, photography and more — with verified peers in 47 countries.",
       ctaPrimary: "Get started",
       ctaSecondary: "Browse skills",
       socialProof: "12,000+ learners",
@@ -29,7 +29,7 @@ const en = {
     },
     how: {
       titlePart1: "How",
-      titlePart2: "Skill Aura",
+      titlePart2: "Skillora",
       titlePart3: "works",
       subtitle: "Three steps. No invoices, no subscriptions to learn — just time.",
       steps: {
@@ -103,7 +103,7 @@ const en = {
       quotePart1: "Instead of paying money to learn, users",
       quoteHighlight: "exchange skills",
       quotePart2: "using time.",
-      attribution: "— The Skill Aura promise",
+      attribution: "— The Skillora promise",
     },
     cta: {
       title: "Ready to start trading skills?",
@@ -114,7 +114,7 @@ const en = {
   },
   login: {
     titlePart1: "Welcome back to",
-    titlePart2: "Skill Aura",
+    titlePart2: "Skillora",
     subtitle: "Log in to continue trading time and learning anything.",
     demoLabel: "Demo:",
     demoText: "any email works — try any user. Password is optional.",
@@ -126,14 +126,14 @@ const en = {
     submit: "Login",
     quickLoginDivider: "quick login",
     tryAs: "Log in as {name}",
-    newToBrand: "New to Skill Aura?",
+    newToBrand: "New to Skillora?",
     createAccount: "Create an account",
     prototypeNote: "Prototype build · No real authentication",
   },
   signup: {
     welcomeBonus: "Welcome bonus: {credits} credits 🎁",
     titlePart1: "Join",
-    titlePart2: "Skill Aura",
+    titlePart2: "Skillora",
     stepIndicator: "Step {current} of {total} — let's build your profile.",
     steps: {
       aboutYou: "About you",
@@ -183,7 +183,7 @@ const en = {
     },
     haveAccount: "Already have an account?",
     login: "Log in",
-    defaultBio: "Just joined Skill Aura — excited to teach and learn!",
+    defaultBio: "Just joined Skillora — excited to teach and learn!",
   },
   notFound: {
     code: "404",

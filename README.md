@@ -1,10 +1,10 @@
-# Skill Aura
+# Skillora
 
 > **Trade time, not money. Learn anything.**
 
 A web-platform prototype where users **exchange skills** using a **time-credit system** — teach 1 hour, earn 1 credit, spend it learning anything else. Built as a university assignment prototype.
 
-![Skill Aura](public/logo.jpg)
+![Skillora](public/logo.jpg)
 
 ---
 
@@ -130,6 +130,6 @@ Returns top 8 with the reasons that contributed — shown as chips on each match
 
 ## Built from spec
 
-This prototype implements every section of the SkillSwap project brief — rebranded as **Skill Aura** for the assignment. See the original PDF for problem statement, target users, business model, and value proposition (all reflected in `/`, `/premium`, and the brand voice).
+This prototype implements every section of the SkillSwap project brief — rebranded as **Skillora** for the assignment. See the original PDF for problem statement, target users, business model, and value proposition (all reflected in `/`, `/premium`, and the brand voice).
 
 Built for university presentation.

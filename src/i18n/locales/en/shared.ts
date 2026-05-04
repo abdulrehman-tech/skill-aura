@@ -48,7 +48,7 @@ const en = {
 
   footer: {
     tagline:
-      "Skill Aura is a sharing-economy learning platform. Trade time, not money — teach what you know, learn what you love.",
+      "Skillora is a sharing-economy learning platform. Trade time, not money — teach what you know, learn what you love.",
     platform: "Platform",
     account: "Account",
     browse: "Browse skills",
@@ -59,7 +59,7 @@ const en = {
     login: "Login",
     dashboard: "Dashboard",
     certificates: "Certificates",
-    copyright: "© 2026 Skill Aura. University prototype — built for the sharing economy.",
+    copyright: "© 2026 Skillora. University prototype — built for the sharing economy.",
   },
 
   booking: {

@@ -1,7 +1,7 @@
 const ar = {
   dashboard: {
     greeting: "مرحبًا، {name} 👋",
-    bannerSubtitle: "مستعد لتبادل بعض المهارات اليوم؟ هالتك تتألّق.",
+    bannerSubtitle: "مستعد لتبادل بعض المهارات اليوم؟ سلسلتك تتألّق.",
     findMatch: "ابحث عن شريك",
     mySessions: "جلساتي",
     stats: {
@@ -127,7 +127,7 @@ const ar = {
     badge: "لوحة المتصدّرين",
     titlePrefix: "أفضل المعلّمين",
     titleSuffix: "والمتعلّمين",
-    subtitle: "نحتفي بأكثر الأعضاء نشاطًا في Skill Aura هذا الشهر.",
+    subtitle: "نحتفي بأكثر الأعضاء نشاطًا في Skillora هذا الشهر.",
     tabsLabel: "تصنيف لوحة المتصدّرين",
     tabs: {
       teachers: "أفضل المعلّمين",
@@ -157,7 +157,7 @@ const ar = {
     },
     cta: {
       title: "تريد مكانًا على المنصّة؟",
-      subtitle: "قدّم المزيد من الجلسات ونمِّ هالتك.",
+      subtitle: "قدّم المزيد من الجلسات ونمِّ سمعتك.",
       button: "ابحث عن متعلّمين",
     },
   },
@@ -166,23 +166,23 @@ const ar = {
     titlePrefix: "شهاداتك",
     titleHighlight: "",
     subtitle:
-      "اكتُسبت من خلال ساعات التدريس والتعلّم في Skill Aura. اعرضها أو شاركها أو نزّلها بصيغة PDF.",
+      "اكتُسبت من خلال ساعات التدريس والتعلّم في Skillora. اعرضها أو شاركها أو نزّلها بصيغة PDF.",
     totalLabel: "إجمالي الشهادات",
     empty: {
       title: "لا توجد شهادات بعد",
       description:
-        "أكمل أكثر من 12 ساعة من التعلّم لتحصل على أول شهادة من Skill Aura. العالم بانتظارك!",
+        "أكمل أكثر من 12 ساعة من التعلّم لتحصل على أول شهادة من Skillora. العالم بانتظارك!",
       hoursHighlight: "12+ ساعة",
       browseSkills: "تصفّح المهارات",
     },
     card: {
       idLabel: "رقم الشهادة",
       heading: "شهادة إتمام",
-      certifies: "تشهد سكِل أورا أن",
+      certifies: "تشهد سكيلورا أن",
       bodyText:
-        "قد أكمل {hours} ساعة من {skill} على منصّة Skill Aura.",
+        "قد أكمل {hours} ساعة من {skill} على منصّة Skillora.",
       hoursHighlight: "{hours} ساعة",
-      signature: "Skill Aura",
+      signature: "Skillora",
       signatureLine: "التوقيع المعتمد",
       issuedLabel: "تاريخ الإصدار",
       download: "تنزيل PDF",

@@ -71,7 +71,7 @@ export function Login() {
               ))}
             </div>
           </div>
-          <div className="text-xs text-white/70">© 2026 Skill Aura · Built in Oman 🇴🇲</div>
+          <div className="text-xs text-white/70">© 2026 Skillora · Built in Oman 🇴🇲</div>
         </div>
       </aside>
 

@@ -1,7 +1,7 @@
 const en = {
   dashboard: {
     greeting: "Hi, {name} 👋",
-    bannerSubtitle: "Ready to trade some skills today? Your aura is glowing.",
+    bannerSubtitle: "Ready to trade some skills today? Your streak is glowing.",
     findMatch: "Find a match",
     mySessions: "My sessions",
     stats: {
@@ -127,7 +127,7 @@ const en = {
     badge: "Leaderboard",
     titlePrefix: "Top teachers",
     titleSuffix: "& learners",
-    subtitle: "Celebrating the most active members on Skill Aura this month.",
+    subtitle: "Celebrating the most active members on Skillora this month.",
     tabsLabel: "Leaderboard category",
     tabs: {
       teachers: "Top Teachers",
@@ -157,7 +157,7 @@ const en = {
     },
     cta: {
       title: "Want a spot on the podium?",
-      subtitle: "Teach more sessions and grow your aura.",
+      subtitle: "Teach more sessions and grow your reputation.",
       button: "Find learners",
     },
   },
@@ -166,12 +166,12 @@ const en = {
     titlePrefix: "Your",
     titleHighlight: "certificates",
     subtitle:
-      "Earned through teaching and learning hours on Skill Aura. Show them off, share them, or download a PDF.",
+      "Earned through teaching and learning hours on Skillora. Show them off, share them, or download a PDF.",
     totalLabel: "Total certificates",
     empty: {
       title: "No certificates yet",
       description:
-        "Complete 12+ hours of learning to earn your first Skill Aura certificate. The world is waiting!",
+        "Complete 12+ hours of learning to earn your first Skillora certificate. The world is waiting!",
       hoursHighlight: "12+ hours",
       browseSkills: "Browse skills",
     },
@@ -180,9 +180,9 @@ const en = {
       heading: "Certificate of Completion",
       certifies: "This certifies that",
       bodyText:
-        "has successfully completed {hours} hours of {skill} on the Skill Aura platform.",
+        "has successfully completed {hours} hours of {skill} on the Skillora platform.",
       hoursHighlight: "{hours} hours",
-      signature: "Skill Aura",
+      signature: "Skillora",
       signatureLine: "Authorized signature",
       issuedLabel: "Issued",
       download: "Download PDF",

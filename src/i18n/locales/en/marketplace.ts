@@ -50,7 +50,7 @@ const en = {
       whenWeeksAgo: "{n} weeks ago",
       templates: {
         r1: "Absolutely loved it. Patient, clear, and genuinely fun to learn from.",
-        r2: "Best tutor I've worked with on Skill Aura. The hands-on examples really clicked.",
+        r2: "Best tutor I've worked with on Skillora. The hands-on examples really clicked.",
         r3: "Walked in nervous, walked out confident. 10/10 recommend.",
         r4: "Incredible energy and structure. Already booked my next session.",
         r5: "Tons of practical tips you won't find on YouTube. Worth every credit.",
@@ -167,7 +167,7 @@ const en = {
   premium: {
     hero: {
       pill: "Premium",
-      titlePart1: "Unlock Skill Aura",
+      titlePart1: "Unlock Skillora",
       titlePart2: "Premium",
       subtitle:
         "Pro tutors, certificates, priority matching, and analytics — everything you need to level up faster.",
